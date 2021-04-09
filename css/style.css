@@ -12,8 +12,8 @@ html, body{
 body{
     font-family: 'Raleway', sans-serif;
     color: white;
-    background: rgb(54,77,204);
-    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+    background: rgb(203,138,56);
+    background: linear-gradient(180deg, rgba(203,138,56,1) 0%, rgba(124,53,19,1) 100%);
 }
 .avatar {
     width: 80px;
@@ -24,13 +24,19 @@ body{
 }
 
 h1{
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 100;
     font-size: 24px;
     margin-bottom: 2px;
 }
 h2{
     font-size: 16px;
+    text-align: center;
+}
+h3{
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
 }
 
 .profile{
@@ -62,12 +68,14 @@ h2{
     padding: 20px;
     box-shadow: 0 0 20px white;
     text-decoration: none;
-    color: rgb(54,77,204);
+    color: rgb(0, 0, 0);
+    text-align: center;
 
 }
 
 .links li a span{
     display: block;
     color: gray;
+    text-align: center;
 
 }
